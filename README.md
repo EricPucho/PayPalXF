@@ -1,7 +1,7 @@
 # PayPalXF
 Use PayPal with Xamarin Forms (no REST)
 
-Use PayPal SDK : Android et iOS
+Use PayPal SDK and Card IO : Android et iOS
 
 Binding with "PayPalAndroidSDK-2.12.1.jar" in Xamarin.Android Version PayPal Android : 2.12.1
 
