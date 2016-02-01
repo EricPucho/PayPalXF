@@ -2,7 +2,9 @@
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
+using Android.Content;
 
 namespace PayPalXF.Droid
 {
@@ -19,6 +21,16 @@ namespace PayPalXF.Droid
 			FormsAppCompatActivity.TabLayoutResource = Resource.Layout.tabs;
 
 			LoadApplication (new App ());
+
+            MessagingCenter.Subscribe<MyPage, string> (this, "payement", (sender, args) => {
+
+                string [] recup =args.Split('/');
+
+                Intent i = new Intent (Android.App.Application.Context, typeof(PayPalActivity));
+                i.PutExtra ("description", recup[1]);
+                i.PutExtra("balance", recup[0]);
+                StartActivity (i);
+            });
 		}
 	}
 }

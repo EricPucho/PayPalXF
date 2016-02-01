@@ -1,5 +1,6 @@
 ﻿using Foundation;
 using UIKit;
+using Xamarin.Forms;
 
 namespace PayPalXF.iOS
 {
@@ -12,8 +13,17 @@ namespace PayPalXF.iOS
 
 			LoadApplication (new App ());
 
+            MessagingCenter.Subscribe<MyPage, string> (this, "payement", (sender, args) => {
+
+                string [] recup =args.Split('/');
+
+                sender.Navigation.PushModalAsync (new PaymentPage (recup [1], recup[0]));
+
+            });
+
 			return base.FinishedLaunching (app, options);
+
+
 		}
 	}
 }
-

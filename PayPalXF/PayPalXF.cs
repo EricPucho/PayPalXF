@@ -8,7 +8,7 @@ namespace PayPalXF
 	{
 		public App ()
 		{
-			MainPage = new PaymentPage ();
+            MainPage = new MyPage ();
 		}
 
 		protected override void OnStart ()

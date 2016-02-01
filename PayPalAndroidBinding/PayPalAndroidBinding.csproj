@@ -51,8 +51,12 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
-    <EmbeddedJar Include="Jars\PayPalAndroidSDK-2.12.1.jar" />
+    <EmbeddedReferenceJar Include="Jars\okhttp-3.0.1.jar" />
+    <EmbeddedReferenceJar Include="Jars\okio-1.6.0.jar" />
   </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\PayPalAndroidSDK-2.13.1.aar" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

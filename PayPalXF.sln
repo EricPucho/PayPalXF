@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPalAndroidBinding", "Pay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPaliOSBinding", "PayPaliOSBinding\PayPaliOSBinding.csproj", "{3B82DB27-3D89-49DB-9968-C36FE0FBA2EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cardio", "cardio\cardio.csproj", "{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,5 +83,17 @@ Global
 		{E45E182C-814C-4B7D-8623-803A254F5C12}.Release|iPhone.Build.0 = Release|Any CPU
 		{E45E182C-814C-4B7D-8623-803A254F5C12}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{E45E182C-814C-4B7D-8623-803A254F5C12}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Release|iPhone.Build.0 = Release|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{9E4D78A8-D3CD-40AB-AE97-6F66B3C77B72}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
